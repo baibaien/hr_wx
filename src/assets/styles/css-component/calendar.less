@@ -1,0 +1,24 @@
+.calendar {
+  text-align:  center ;
+  float: left ;
+  display:  inline-block ;
+  width:  16.6667% ;
+  height: .4rem ;
+  line-height:  .4rem
+}
+.calendar.active {
+  color: #fff;
+  background: #33ac37;
+}
+.calendar.first.active {
+  border-radius: .2rem 0 0 .2rem;
+}
+.calendar.last.active {
+  border-radius: 0 .2rem .2rem 0
+}
+.calendar.last.first.active {
+  border-radius: .2rem;
+}
+.calendar-wrapper + .calendar-wrapper{
+  margin-top: .15rem
+}
